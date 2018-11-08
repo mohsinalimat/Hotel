@@ -7,20 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3300EF1E2190826B00838D3F /* HospedagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300EF1D2190826B00838D3F /* HospedagemView.swift */; };
+		3300EF212191BD1C00838D3F /* CellQuarto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300EF202191BD1C00838D3F /* CellQuarto.swift */; };
+		3300EF232191BD2900838D3F /* CellCrianca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300EF222191BD2900838D3F /* CellCrianca.swift */; };
+		3300EF252191BD5100838D3F /* CellCriancaIdade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300EF242191BD5100838D3F /* CellCriancaIdade.swift */; };
+		3300EF272191BD6800838D3F /* CellAdulto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300EF262191BD6800838D3F /* CellAdulto.swift */; };
+		3300EF292191C6FE00838D3F /* HospedagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300EF282191C6FE00838D3F /* HospedagemViewModel.swift */; };
+		3300EF2B21930B5B00838D3F /* ViewCriancaIdade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300EF2A21930B5B00838D3F /* ViewCriancaIdade.swift */; };
+		336E894B218A598F00AF9441 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336E894A218A598F00AF9441 /* JTAppleCalendar.framework */; };
+		336E894C218A598F00AF9441 /* JTAppleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 336E894A218A598F00AF9441 /* JTAppleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		336E894F218A59CC00AF9441 /* CalendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E894E218A59CC00AF9441 /* CalendarioView.swift */; };
+		336E8951218A59F800AF9441 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E8950218A59F800AF9441 /* Utils.swift */; };
+		336E8953218B366100AF9441 /* CellDia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E8952218B366100AF9441 /* CellDia.swift */; };
+		336E8955218B39F700AF9441 /* DestinosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E8954218B39F700AF9441 /* DestinosView.swift */; };
+		338C6A5C219352E0009D9734 /* Quarto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6A5B219352E0009D9734 /* Quarto.swift */; };
+		338C6A6021935A39009D9734 /* Crianca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6A5F21935A39009D9734 /* Crianca.swift */; };
+		338C6A6221946B5E009D9734 /* ClientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6A6121946B5E009D9734 /* ClientAPI.swift */; };
+		338C6A6421947028009D9734 /* HotelClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6A6321947028009D9734 /* HotelClient.swift */; };
+		33E1AE4A218B67250014ACE3 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1AE49218B67250014ACE3 /* Hotel.swift */; };
+		33E1AE4C218B7A080014ACE3 /* DestinosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1AE4B218B7A080014ACE3 /* DestinosViewModel.swift */; };
+		33E1AE4E218B7E5D0014ACE3 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1AE4D218B7E5D0014ACE3 /* Dynamic.swift */; };
 		33FD0000218A389A00419FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FDFFFE218A389A00419FB3 /* Main.storyboard */; };
 		33FD0002218A389D00419FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FD0001218A389D00419FB3 /* Assets.xcassets */; };
 		33FD0005218A389D00419FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FD0003218A389D00419FB3 /* LaunchScreen.storyboard */; };
 		33FDFFFB218A389A00419FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FDFFFA218A389A00419FB3 /* AppDelegate.swift */; };
-		33FDFFFD218A389A00419FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FDFFFC218A389A00419FB3 /* ViewController.swift */; };
+		33FDFFFD218A389A00419FB3 /* BuscarHotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FDFFFC218A389A00419FB3 /* BuscarHotelView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		336E894D218A598F00AF9441 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				336E894C218A598F00AF9441 /* JTAppleCalendar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3300EF1D2190826B00838D3F /* HospedagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospedagemView.swift; sourceTree = "<group>"; };
+		3300EF202191BD1C00838D3F /* CellQuarto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellQuarto.swift; sourceTree = "<group>"; };
+		3300EF222191BD2900838D3F /* CellCrianca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCrianca.swift; sourceTree = "<group>"; };
+		3300EF242191BD5100838D3F /* CellCriancaIdade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCriancaIdade.swift; sourceTree = "<group>"; };
+		3300EF262191BD6800838D3F /* CellAdulto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAdulto.swift; sourceTree = "<group>"; };
+		3300EF282191C6FE00838D3F /* HospedagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospedagemViewModel.swift; sourceTree = "<group>"; };
+		3300EF2A21930B5B00838D3F /* ViewCriancaIdade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCriancaIdade.swift; sourceTree = "<group>"; };
+		336E894A218A598F00AF9441 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = "<group>"; };
+		336E894E218A59CC00AF9441 /* CalendarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioView.swift; sourceTree = "<group>"; };
+		336E8950218A59F800AF9441 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		336E8952218B366100AF9441 /* CellDia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDia.swift; sourceTree = "<group>"; };
+		336E8954218B39F700AF9441 /* DestinosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinosView.swift; sourceTree = "<group>"; };
+		338C6A5B219352E0009D9734 /* Quarto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quarto.swift; sourceTree = "<group>"; };
+		338C6A5F21935A39009D9734 /* Crianca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crianca.swift; sourceTree = "<group>"; };
+		338C6A6121946B5E009D9734 /* ClientAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAPI.swift; sourceTree = "<group>"; };
+		338C6A6321947028009D9734 /* HotelClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelClient.swift; sourceTree = "<group>"; };
+		33E1AE49218B67250014ACE3 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		33E1AE4B218B7A080014ACE3 /* DestinosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinosViewModel.swift; sourceTree = "<group>"; };
+		33E1AE4D218B7E5D0014ACE3 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		33FD0001218A389D00419FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33FD0004218A389D00419FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33FD0006218A389D00419FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33FDFFF7218A389A00419FB3 /* Hotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FDFFFA218A389A00419FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33FDFFFC218A389A00419FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33FDFFFC218A389A00419FB3 /* BuscarHotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarHotelView.swift; sourceTree = "<group>"; };
 		33FDFFFF218A389A00419FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,15 +82,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336E894B218A598F00AF9441 /* JTAppleCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3300EF1F2191BD0000838D3F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				336E8952218B366100AF9441 /* CellDia.swift */,
+				3300EF202191BD1C00838D3F /* CellQuarto.swift */,
+				3300EF222191BD2900838D3F /* CellCrianca.swift */,
+				3300EF242191BD5100838D3F /* CellCriancaIdade.swift */,
+				3300EF262191BD6800838D3F /* CellAdulto.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		337122A32194C98E00203DFB /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				33FDFFFE218A389A00419FB3 /* Main.storyboard */,
+				33FD0003218A389D00419FB3 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		338C6A652194702E009D9734 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				338C6A6321947028009D9734 /* HotelClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		338C6A6621947062009D9734 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				338C6A6121946B5E009D9734 /* ClientAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		33E1AE43218B63EF0014ACE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				337122A32194C98E00203DFB /* StoryBoards */,
+				3300EF1F2191BD0000838D3F /* Cells */,
+				33FDFFFC218A389A00419FB3 /* BuscarHotelView.swift */,
+				336E894E218A59CC00AF9441 /* CalendarioView.swift */,
+				336E8954218B39F700AF9441 /* DestinosView.swift */,
+				3300EF1D2190826B00838D3F /* HospedagemView.swift */,
+				3300EF2A21930B5B00838D3F /* ViewCriancaIdade.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33E1AE44218B63F50014ACE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33E1AE49218B67250014ACE3 /* Hotel.swift */,
+				338C6A5B219352E0009D9734 /* Quarto.swift */,
+				338C6A5F21935A39009D9734 /* Crianca.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33E1AE45218B63FB0014ACE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				33E1AE4B218B7A080014ACE3 /* DestinosViewModel.swift */,
+				3300EF282191C6FE00838D3F /* HospedagemViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		33E1AE46218B64180014ACE3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				336E8950218A59F800AF9441 /* Utils.swift */,
+				33E1AE4D218B7E5D0014ACE3 /* Dynamic.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		33FDFFEE218A389A00419FB3 = {
 			isa = PBXGroup;
 			children = (
+				336E894A218A598F00AF9441 /* JTAppleCalendar.framework */,
 				33FDFFF9218A389A00419FB3 /* Hotel */,
 				33FDFFF8218A389A00419FB3 /* Products */,
 			);
@@ -54,11 +188,14 @@
 		33FDFFF9218A389A00419FB3 /* Hotel */ = {
 			isa = PBXGroup;
 			children = (
+				338C6A6621947062009D9734 /* Service */,
+				338C6A652194702E009D9734 /* Clients */,
+				33E1AE46218B64180014ACE3 /* Helpers */,
+				33E1AE43218B63EF0014ACE3 /* Views */,
+				33E1AE45218B63FB0014ACE3 /* ViewModels */,
+				33E1AE44218B63F50014ACE3 /* Models */,
 				33FDFFFA218A389A00419FB3 /* AppDelegate.swift */,
-				33FDFFFC218A389A00419FB3 /* ViewController.swift */,
-				33FDFFFE218A389A00419FB3 /* Main.storyboard */,
 				33FD0001218A389D00419FB3 /* Assets.xcassets */,
-				33FD0003218A389D00419FB3 /* LaunchScreen.storyboard */,
 				33FD0006218A389D00419FB3 /* Info.plist */,
 			);
 			path = Hotel;
@@ -74,6 +211,7 @@
 				33FDFFF3218A389A00419FB3 /* Sources */,
 				33FDFFF4218A389A00419FB3 /* Frameworks */,
 				33FDFFF5218A389A00419FB3 /* Resources */,
+				336E894D218A598F00AF9441 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,8 +273,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33FDFFFD218A389A00419FB3 /* ViewController.swift in Sources */,
+				336E894F218A59CC00AF9441 /* CalendarioView.swift in Sources */,
+				3300EF252191BD5100838D3F /* CellCriancaIdade.swift in Sources */,
+				3300EF1E2190826B00838D3F /* HospedagemView.swift in Sources */,
+				338C6A6221946B5E009D9734 /* ClientAPI.swift in Sources */,
+				33E1AE4E218B7E5D0014ACE3 /* Dynamic.swift in Sources */,
+				338C6A6021935A39009D9734 /* Crianca.swift in Sources */,
+				3300EF212191BD1C00838D3F /* CellQuarto.swift in Sources */,
+				33E1AE4A218B67250014ACE3 /* Hotel.swift in Sources */,
+				33FDFFFD218A389A00419FB3 /* BuscarHotelView.swift in Sources */,
+				3300EF2B21930B5B00838D3F /* ViewCriancaIdade.swift in Sources */,
+				338C6A5C219352E0009D9734 /* Quarto.swift in Sources */,
+				3300EF292191C6FE00838D3F /* HospedagemViewModel.swift in Sources */,
+				336E8953218B366100AF9441 /* CellDia.swift in Sources */,
+				336E8955218B39F700AF9441 /* DestinosView.swift in Sources */,
+				3300EF272191BD6800838D3F /* CellAdulto.swift in Sources */,
 				33FDFFFB218A389A00419FB3 /* AppDelegate.swift in Sources */,
+				336E8951218A59F800AF9441 /* Utils.swift in Sources */,
+				3300EF232191BD2900838D3F /* CellCrianca.swift in Sources */,
+				338C6A6421947028009D9734 /* HotelClient.swift in Sources */,
+				33E1AE4C218B7A080014ACE3 /* DestinosViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,15 +440,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y799YUNDK5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Hotel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wooba.Hotel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,15 +463,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y799YUNDK5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Hotel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wooba.Hotel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
