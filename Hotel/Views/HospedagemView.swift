@@ -15,7 +15,7 @@ protocol CustomCellCriancaIdade{
 class HospedagemView: UITableViewController, CustomCellCriancaIdade {
     
     private let SEGUE_CRIANCA_IDADE = "segueToCriancaIdade"
-    var hospedagemViewModel = HospedagemViewModel()
+    var hospedagemViewModel: HospedagemViewModel!
     
     var quartos: [Quarto] = [Quarto()]{
         didSet{

@@ -34,6 +34,23 @@ class BuscarHotelView: UITableViewController, DataEscolhidaProtocol, HotelEscolh
     private let SEGUE_DESTINO = "segueToDestino"
     private let SEGUE_HOSPEDAGEM = "segueToHospedagem"
     
+    var viewModel = HospedagemViewModel()
+    var quartos: [Quarto] = []{
+        didSet{
+            var somaAdultos = 0
+            var somaCriancas = 0
+            var somaQuartos = 0
+            for quarto in quartos{
+                somaAdultos += quarto.adultos
+                somaCriancas += quarto.criancas.count
+                somaQuartos += 1
+            }
+            lblNumeroAdultos.text = String(somaAdultos)
+            lblNumeroQuartos.text = String(somaQuartos)
+            lblNumeroCriancas.text = String(somaCriancas)
+        }
+    }
+    
     var flagIdaVolta = true
     var dataIda: Date?
     var dataVolta: Date?
@@ -104,6 +121,10 @@ class BuscarHotelView: UITableViewController, DataEscolhidaProtocol, HotelEscolh
         configureTextField()
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        quartos = viewModel.quartos.value
+    }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
@@ -128,8 +149,10 @@ class BuscarHotelView: UITableViewController, DataEscolhidaProtocol, HotelEscolh
             let viewC = segue.destination as! DestinosView
             viewC.delegate = self
             
-        }else{
+        }else if segue.identifier == SEGUE_HOSPEDAGEM{
             
+            let viewC = segue.destination as! HospedagemView
+            viewC.hospedagemViewModel = viewModel
         }
     }
     

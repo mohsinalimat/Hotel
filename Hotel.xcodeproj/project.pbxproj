@@ -132,8 +132,8 @@
 				337122A32194C98E00203DFB /* StoryBoards */,
 				3300EF1F2191BD0000838D3F /* Cells */,
 				33FDFFFC218A389A00419FB3 /* BuscarHotelView.swift */,
-				336E894E218A59CC00AF9441 /* CalendarioView.swift */,
 				336E8954218B39F700AF9441 /* DestinosView.swift */,
+				336E894E218A59CC00AF9441 /* CalendarioView.swift */,
 				3300EF1D2190826B00838D3F /* HospedagemView.swift */,
 				3300EF2A21930B5B00838D3F /* ViewCriancaIdade.swift */,
 			);
