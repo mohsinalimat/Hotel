@@ -153,6 +153,7 @@ class BuscarHotelView: UITableViewController, DataEscolhidaProtocol, HotelEscolh
             
             let viewC = segue.destination as! HospedagemView
             viewC.hospedagemViewModel = viewModel
+            viewC.quartos = viewModel.quartos.value
         }
     }
     

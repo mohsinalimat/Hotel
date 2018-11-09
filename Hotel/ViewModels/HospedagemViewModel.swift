@@ -24,15 +24,17 @@ class HospedagemViewModel {
         quartos.value.removeLast()
     }
     
-    func addCrianca(section: Int){
-        quartos.value[section].criancas.append(Crianca())
-    }
-    
     func removeCrianca(section: Int){
         quartos.value[section].criancas.removeLast()
     }
     
-    func addCrianca(section: Int, row: Int, idade: Int){
+    func addCrianca(section: Int, idade: Int){
+        var chd = Crianca()
+        chd.idade = idade
+        quartos.value[section].criancas.append(chd)
+    }
+
+    func updateCrianca(section: Int, row: Int, idade: Int){
         quartos.value[section].criancas[row - 1].idade = idade
     }
 }

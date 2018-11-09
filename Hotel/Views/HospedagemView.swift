@@ -71,6 +71,7 @@ class HospedagemView: UITableViewController, CustomCellCriancaIdade {
                 cell.currentSection = indexPath.section - 1
                 cell.delegate = self
                 cell.viewModel = hospedagemViewModel
+                
                 return cell
             }
         }

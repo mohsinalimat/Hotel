@@ -16,12 +16,18 @@ class CellCrianca: UITableViewCell {
     @IBOutlet weak var btnMaisCrianca: UIButton!
     @IBOutlet weak var viewMenosCrianca: UIView!
     
-    var viewModel: HospedagemViewModel?
-    var qtdCrianca = 0 {
+    var qtdCrianca: Int?
+    var viewModel: HospedagemViewModel?{
         didSet{
-            lblCrianca.text = "\(qtdCrianca) \(qtdCrianca > 1 ? "Crianças":"Criança")"
+            if let vm = viewModel{
+                if let section = currentSection{
+                    qtdCrianca = vm.quartos.value[section - 1].criancas.count
+                    lblCrianca.text = "\(qtdCrianca!) \(qtdCrianca! > 1 ? "Crianças":"Criança")"
+                }
+            }
         }
     }
+    
     var currentSection: Int?
     
     override func awakeFromNib() {
@@ -29,17 +35,12 @@ class CellCrianca: UITableViewCell {
         
         configureButtons()
         configureViews()
-        configureLabel()
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         
         // Configure the view for the selected state
-    }
-    
-    func configureLabel(){
-        lblCrianca.text = "\(qtdCrianca) Criança"
     }
     
     func configureButtons(){
@@ -60,17 +61,17 @@ class CellCrianca: UITableViewCell {
     }
     
     @objc func addCrianca(){
-        if qtdCrianca <= 3{
-            qtdCrianca += 1
-            if let vm = viewModel{
-                vm.addCrianca(section: currentSection! - 1)
+        if let qtd = qtdCrianca{
+            if qtd <= 3{
+                if let vm = viewModel{
+                    vm.addCrianca(section: currentSection! - 1, idade: 10)
+                }
             }
         }
     }
     
     @objc func removeCrianca(){
         if qtdCrianca != 0{
-            qtdCrianca -= 1
             if let vm = viewModel{
                 vm.removeCrianca(section: currentSection! - 1)
             }

@@ -14,9 +14,19 @@ class CellCriancaIdade: UITableViewCell {
     
     @IBOutlet weak var lblIdadeCrianca: UILabel!
     @IBOutlet weak var btnIdadeCrianca: UIButton!
+    
     var delegate: CustomCellCriancaIdade?
     let notificationKey = Notification.Name(rawValue: notificationIdade)
-    var viewModel: HospedagemViewModel?
+    
+    var viewModel: HospedagemViewModel?{
+        didSet{
+            if let vm = viewModel {
+                if let section = currentSection{
+                    btnIdadeCrianca.setTitle("\(vm.quartos.value[section].criancas[currentRow - 2].idade ?? 10) anos", for: .normal)
+                }
+            }
+        }
+    }
     
     var currentRow = 2 {
         didSet{
@@ -48,6 +58,7 @@ class CellCriancaIdade: UITableViewCell {
     }
     
     func configureButton(){
+        
         btnIdadeCrianca.addTarget(self, action: #selector(escolherIdade), for: .touchDown)
     }
     
@@ -59,7 +70,7 @@ class CellCriancaIdade: UITableViewCell {
         let value = notification.object as! [Int]
         if currentRow - 1 == value[0]{
             btnIdadeCrianca.setTitle("\(value[1]) anos", for: .normal)
-            viewModel?.addCrianca(section: value[2], row: value[0], idade: value[1])
+            viewModel?.updateCrianca(section: value[2], row: value[0], idade: value[1])
         }
     }
     
