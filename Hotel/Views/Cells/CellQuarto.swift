@@ -16,30 +16,26 @@ class CellQuarto: UITableViewCell {
     @IBOutlet weak var btnMaisQuarto: UIButton!
     @IBOutlet weak var viewMenosQuarto: UIView!
     
-    var qtdQuarto = 1 {
+    var qtdQuartos: Int?
+    var viewModel: HospedagemViewModel? {
         didSet{
-            lblQuarto.text = "\(qtdQuarto) \(qtdQuarto > 1 ? "Quartos": "Quarto")"
+            if let vm = viewModel{
+                qtdQuartos = vm.quartos.value.count
+                lblQuarto.text = "\(qtdQuartos!) \(qtdQuartos! > 1 ? "Quartos": "Quarto")"
+            }
         }
     }
-    
-    var viewModel: HospedagemViewModel?
     
     override func awakeFromNib() {
         super.awakeFromNib( )
         
         configureButtons()
         configureViews()
-        configureLabel()
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         
-        // Configure the view for the selected state
-    }
-    
-    func configureLabel(){
-        lblQuarto.text = "\(qtdQuarto) Quarto"
     }
     
     func configureButtons(){
@@ -60,19 +56,21 @@ class CellQuarto: UITableViewCell {
     }
     
     @objc func maisQuarto(){
-        if qtdQuarto <= 3{
-            if let vm = viewModel{
-                qtdQuarto += 1
-                vm.addQuarto()
+        if let qtd = qtdQuartos{
+            if qtd <= 3{
+                if let vm = viewModel{
+                    vm.addQuarto()
+                }
             }
         }
     }
     
     @objc func menosQuarto(){
-        if qtdQuarto != 1{
-            if let vm = viewModel{
-                qtdQuarto -= 1
-                vm.removeQuarto()
+        if let qtd = qtdQuartos{
+            if qtd != 1{
+                if let vm = viewModel{
+                    vm.addQuarto()
+                }
             }
         }
     }

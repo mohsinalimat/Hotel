@@ -189,7 +189,9 @@
                             <outlet property="delegate" destination="wUe-Bw-gQM" id="Pja-Fc-sBF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="fMS-vk-cN0"/>
+                    <navigationItem key="navigationItem" id="fMS-vk-cN0">
+                        <barButtonItem key="backBarButtonItem" title=" " id="dMo-LE-7TH"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="btnBuscarHoteis" destination="Hjb-uO-t6H" id="MCg-QX-62X"/>
                         <outlet property="lblNumeroAdultos" destination="C9k-B8-tYA" id="Vc4-WJ-6vS"/>
@@ -737,7 +739,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="woX-w5-Dyl">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.88610338180000003" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

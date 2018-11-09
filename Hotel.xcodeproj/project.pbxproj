@@ -94,9 +94,9 @@
 			children = (
 				336E8952218B366100AF9441 /* CellDia.swift */,
 				3300EF202191BD1C00838D3F /* CellQuarto.swift */,
+				3300EF262191BD6800838D3F /* CellAdulto.swift */,
 				3300EF222191BD2900838D3F /* CellCrianca.swift */,
 				3300EF242191BD5100838D3F /* CellCriancaIdade.swift */,
-				3300EF262191BD6800838D3F /* CellAdulto.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";

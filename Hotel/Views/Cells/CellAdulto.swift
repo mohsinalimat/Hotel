@@ -16,9 +16,16 @@ class CellAdulto: UITableViewCell {
     @IBOutlet weak var btnMaisAdulto: UIButton!
     @IBOutlet weak var viewMenosAdulto: UIView!
     
-    var qtdAdultos = 1{
+    var qtdAdultos: Int?
+    var currentSection: Int?
+    var viewModel: HospedagemViewModel?{
         didSet{
-            lblAdulto.text = "\(qtdAdultos) \(qtdAdultos > 1 ? "Adultos":"Adulto")"
+            if let vm = viewModel{
+                if let section = currentSection{
+                    qtdAdultos = vm.quartos.value[section - 1].adultos
+                    lblAdulto.text = "\(qtdAdultos!) \(qtdAdultos! > 1 ? "Adultos":"Adulto")"
+                }
+            }
         }
     }
 
@@ -27,8 +34,6 @@ class CellAdulto: UITableViewCell {
 
         configureButtons()
         configureViews()
-        
-        lblAdulto.text = "\(qtdAdultos) Adulto"
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -55,14 +60,27 @@ class CellAdulto: UITableViewCell {
     }
 
     @objc func addAdulto(){
-        if qtdAdultos <= 4{
-            qtdAdultos += 1
+        if let qtd = qtdAdultos{
+            if qtd <= 4{
+                if let vm = viewModel{
+                    if let section = currentSection{
+                        vm.addAdulto(section: section - 1)
+                    }
+                }
+            }
         }
     }
     
     @objc func removeAdulto(){
-        if qtdAdultos != 1{
-            qtdAdultos -= 1
+        if let qtd = qtdAdultos{
+            if qtd != 1{
+                if let vm = viewModel{
+                    if let section = currentSection{
+                        vm.removeAdulto(section: section - 1)
+                    }
+                }
+            }
         }
     }
+    
 }

@@ -24,6 +24,14 @@ class HospedagemViewModel {
         quartos.value.removeLast()
     }
     
+    func addAdulto(section : Int){
+        quartos.value[section].adultos += 1
+    }
+    
+    func removeAdulto(section : Int){
+        quartos.value[section].adultos -= 1
+    }
+    
     func removeCrianca(section: Int){
         quartos.value[section].criancas.removeLast()
     }

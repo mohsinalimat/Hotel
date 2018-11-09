@@ -59,7 +59,10 @@ class HospedagemView: UITableViewController, CustomCellCriancaIdade {
             return cell
         default:
             if indexPath.row == 0{
-                return tableView.dequeueReusableCell(withIdentifier: "cellAdulto") as! CellAdulto
+                let cell = tableView.dequeueReusableCell(withIdentifier: "cellAdulto") as! CellAdulto
+                cell.currentSection = indexPath.section
+                cell.viewModel = hospedagemViewModel
+                return cell
             }else if indexPath.row == 1{
                 let cell = tableView.dequeueReusableCell(withIdentifier: "cellCrianca") as! CellCrianca
                 cell.currentSection = indexPath.section

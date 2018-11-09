@@ -18,28 +18,24 @@ class CellCriancaIdade: UITableViewCell {
     var delegate: CustomCellCriancaIdade?
     let notificationKey = Notification.Name(rawValue: notificationIdade)
     
+    var currentSection: Int?
+    var currentRow : Int?
     var viewModel: HospedagemViewModel?{
         didSet{
             if let vm = viewModel {
                 if let section = currentSection{
-                    btnIdadeCrianca.setTitle("\(vm.quartos.value[section].criancas[currentRow - 2].idade ?? 10) anos", for: .normal)
+                    if let row = currentRow{
+                        btnIdadeCrianca.setTitle("\(vm.quartos.value[section].criancas[row - 2].idade ?? 10) anos", for: .normal)
+                        lblIdadeCrianca.text = "Idade criança \(row - 1)"
+                    }
                 }
             }
         }
     }
     
-    var currentRow = 2 {
-        didSet{
-            lblIdadeCrianca.text = "Idade Criança \(currentRow - 1)"
-        }
-    }
-    
-    var currentSection: Int?
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        configureLabel()
         configureButton()
         createObservers()
     }
@@ -62,21 +58,21 @@ class CellCriancaIdade: UITableViewCell {
         btnIdadeCrianca.addTarget(self, action: #selector(escolherIdade), for: .touchDown)
     }
     
-    func configureLabel(){
-        lblIdadeCrianca.text = "Idade Criança \(currentRow - 1)"
-    }
-    
     @objc func updateIdadeCrianca(notification: NSNotification){
         let value = notification.object as! [Int]
-        if currentRow - 1 == value[0]{
-            btnIdadeCrianca.setTitle("\(value[1]) anos", for: .normal)
-            viewModel?.updateCrianca(section: value[2], row: value[0], idade: value[1])
+        if let row = currentRow{
+            if row - 1 == value[0]{
+                btnIdadeCrianca.setTitle("\(value[1]) anos", for: .normal)
+                viewModel?.updateCrianca(section: value[2], row: value[0], idade: value[1])
+            }
         }
     }
     
     @objc func escolherIdade(){
         if let del = delegate{
-            del.callViewCriancaIdade(data: [currentSection, currentRow - 1] as AnyObject)
+            if let row = currentRow{
+                del.callViewCriancaIdade(data: [currentSection, row - 1] as AnyObject)
+            }
         }
     }
 }
