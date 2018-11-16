@@ -89,7 +89,7 @@
             cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cellHotel")
         }
         
-        cell?.textLabel?.text = hoteis[indexPath.row].name ?? ""
+        cell?.textLabel?.text = hoteis[indexPath.row].Name ?? ""
         
         return cell!
     }
@@ -99,7 +99,7 @@
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         guard var del = delegate else { return }
-        del.nomeHotel = hoteis[indexPath.row].name
+        del.nomeHotel = hoteis[indexPath.row].Name
         navigationController?.popViewController(animated: true)
     }
  }

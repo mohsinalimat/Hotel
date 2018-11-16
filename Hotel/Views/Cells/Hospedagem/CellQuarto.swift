@@ -74,4 +74,5 @@ class CellQuarto: UITableViewCell {
             }
         }
     }
+    
 }

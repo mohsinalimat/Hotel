@@ -9,6 +9,8 @@
 import Foundation
 
 struct Quarto {
+    
     var adultos: Int = 1
     var criancas: [Crianca] = []
+    
 }

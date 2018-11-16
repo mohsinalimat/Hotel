@@ -1,0 +1,1477 @@
+{
+    "EchoToken": "012345678008749",
+    "Properties": [
+        {
+            "PropertyId": "564b2527c19a3c0e789043fc",
+            "Name": "Hotel Canto Da Floresta",
+            "Rating": 0,
+            "PropertyType": "Hotel",
+            "Cnpj": null,
+            "Description": "Construído segundo os preceitos do Feng Shui, o Canto da Floresta Eco Resort, localizado no Circuito das Águas Paulista, coordena atividades de \"Harmonização e Integração com a Natureza\" com atividades que promovem o equilíbrio entre corpo, mente e espírito. A mesma harmonia de formas e tons se encontra no paisagismo das áreas comuns e nos jardins, feitos também à luz do Feng Shui.\rAlém disso, o Canto da Floresta dispõe de quadras poliesportivas, piscina, sala de TV, parede de escalada, arvorismo, tirolesa, piscina aquecida e espaços exclusivos para cuidar da mente, denominado \"Parque Holístico\".\rE para aliar tudo o que o resort pode oferecer em conforto, contamos com um convidado majestoso: A natureza.\rPrivilegiado, o Canto da Floresta Ecoresort localiza-se geograficamente num berço entre montanhas e vales verdes na divisa das cidades de Amparo e Monte Alegre do Sul., a 140 km de São Paulo, onde a energia circula suavemente e é constantemente renovada.\rNo ar, não será difícil perceber um leve incenso se mesclando aos aromas da natureza. Aí vem o cheiro da terra molhada, um perfume do mato e flores e o som da cascata. A natureza com florestas, matas e rio encachoeirado serpenteando por todo o espaço do Resort contribui para a paz e o descanso.\rE se o seu desejo é um evento mais profissional, também contamos com uma estrutura moderna e completa para eventos. O Centro de Convenções é constituído por um salão nobre com capacidade para 405 pessoas em auditório modulável em três ambientes, com divisórias acústicas, cabine de som com equipamento de última geração.\rSeja pela estrutura ou pela natureza o Canto da Floresta Ecoresort está completo para atender os seus deseos mais simplres e sonhos mais sofisticados.",
+            "Policies": {
+                "CheckInTime": "17:00:00",
+                "CheckOutTime": "15:00:00",
+                "TermAndConditions": null,
+                "GeneralPolicy": "Check in: 17h\rCheck out: 15h\r \rCaso o check out seja antecipado será cobrada uma diária de multa e o saldo restante se houver será concedido como carta de crédito.\rObrigatório a apresentação de documento das crianças e adolescentes acompanhados ou não pelos pais.\rObservações:\rDiárias parceladas em 03 vezes no cartão de crédito\rCobrança de 10% sobre serviços, diárias, produtos e extras que serão cobrados juntamente no cartão de crédito."
+            },
+            "GoogleMapsUrl": null,
+            "PropertyHomePage": null,
+            "Phones": {
+                "MainPhone": "33334444",
+                "SecondaryPhone": "33334444"
+            },
+            "Address": {
+                "Street": "Sitio São João, s/n",
+                "Neighborhood": "Furquilha ",
+                "CityCode": "350190",
+                "City": "Amparo",
+                "StateCode": "35",
+                "State": "São Paulo",
+                "CountryCode": null,
+                "Country": "Brasil",
+                "ZipCode": "13900000"
+            },
+            "Location": {
+                "Latitude": null,
+                "Longitude": null
+            },
+            "Features": [
+                {
+                    "Code": "101",
+                    "Name": "Piscina ao ar livre"
+                },
+                {
+                    "Code": "102",
+                    "Name": "Piscina coberta"
+                },
+                {
+                    "Code": "105",
+                    "Name": "Spa"
+                },
+                {
+                    "Code": "106",
+                    "Name": "Sauna"
+                },
+                {
+                    "Code": "107",
+                    "Name": "Banheira de hidromassagem"
+                },
+                {
+                    "Code": "108",
+                    "Name": "Academia"
+                },
+                {
+                    "Code": "109",
+                    "Name": "Solário"
+                },
+                {
+                    "Code": "110",
+                    "Name": "Serviços de massagem"
+                },
+                {
+                    "Code": "111",
+                    "Name": "Piscina coberta(sazonal)"
+                },
+                {
+                    "Code": "201",
+                    "Name": "Salão de jogos"
+                },
+                {
+                    "Code": "203",
+                    "Name": "Campo de Futebol"
+                },
+                {
+                    "Code": "206",
+                    "Name": "Parquinho infantil"
+                },
+                {
+                    "Code": "207",
+                    "Name": "Quadra de Tênis"
+                },
+                {
+                    "Code": "208",
+                    "Name": "Bilhar"
+                },
+                {
+                    "Code": "209",
+                    "Name": "Tênis de Mesa/Pingue-pongue"
+                },
+                {
+                    "Code": "211",
+                    "Name": "Squash"
+                },
+                {
+                    "Code": "223",
+                    "Name": "Ciclismo"
+                },
+                {
+                    "Code": "224",
+                    "Name": "Trilhas a pé"
+                },
+                {
+                    "Code": "226",
+                    "Name": "Cachoeira"
+                },
+                {
+                    "Code": "301",
+                    "Name": "Restaurante"
+                },
+                {
+                    "Code": "303",
+                    "Name": "Restaurante (buffet)"
+                },
+                {
+                    "Code": "304",
+                    "Name": "Bar"
+                },
+                {
+                    "Code": "308",
+                    "Name": "Churrasqueira"
+                },
+                {
+                    "Code": "311",
+                    "Name": "Serviço de Quarto"
+                },
+                {
+                    "Code": "312",
+                    "Name": "Café da manhã no quarto"
+                },
+                {
+                    "Code": "401",
+                    "Name": "Acesso Wi-Fi disponível em todo hotel, gratuitamente"
+                },
+                {
+                    "Code": "402",
+                    "Name": "Acesso Wi-Fi disponível em todo hotel"
+                },
+                {
+                    "Code": "502",
+                    "Name": "Recepção 24 horas"
+                },
+                {
+                    "Code": "509",
+                    "Name": "Cofre"
+                },
+                {
+                    "Code": "510",
+                    "Name": "Jornais"
+                },
+                {
+                    "Code": "511",
+                    "Name": "Estacionamento Gratuíto"
+                },
+                {
+                    "Code": "601",
+                    "Name": "Português"
+                },
+                {
+                    "Code": "602",
+                    "Name": "Inglês"
+                },
+                {
+                    "Code": "701",
+                    "Name": "Quartos não fumantes"
+                },
+                {
+                    "Code": "704",
+                    "Name": "Ar-condicionado"
+                },
+                {
+                    "Code": "705",
+                    "Name": "Aquecimento"
+                }
+            ],
+            "Photos": [],
+            "RoomTypes": [
+                {
+                    "RoomTypeId": "647659499",
+                    "Name": "Suíte Luxo Solteiro",
+                    "Description": "Projetada nos preceitos do Feng Shui, as acomodações do Canto da Floresta Ecoresort oferecem aos hóspedes o máximo de conforto para seu relaxamento e total conforto. \rAconchegantes e charmosas com seus detalhes, cores, texturas e cantos arredondados para que sua energia flua melhor. ",
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 3,
+                    "MaxAdults": 3,
+                    "MaxChildren": 2,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/8bcb1dd2f57b4780a6018f2f95005654.jpg",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/8bcb1dd2f57b4780a6018f2f95005654.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/c587cc6e8d1c45c3b7e5fb363fea3735.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/9c2743b94c7a43249d97639d86936a97.jpg"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "1",
+                            "Name": "Ar-Condicionado"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "15",
+                            "Name": "Cofre"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "28",
+                            "Name": "Luminária na cabeceira"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "20",
+                            "Name": "Serviço de Despertador"
+                        },
+                        {
+                            "Code": "11",
+                            "Name": "Serviço de Quarto"
+                        },
+                        {
+                            "Code": "18",
+                            "Name": "Telefone"
+                        },
+                        {
+                            "Code": "4",
+                            "Name": "Televisão"
+                        },
+                        {
+                            "Code": "26",
+                            "Name": "Televisão de LED"
+                        },
+                        {
+                            "Code": "17",
+                            "Name": "Toalete"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "19",
+                            "Name": "TV de Tela Plana"
+                        }
+                    ],
+                    "BedOptions": [
+                        "1 cama de casal"
+                    ],
+                    "AllowSmokers": false,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1686331143",
+                            "Name": "Tarifa",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "None",
+                                    "Amount": 0,
+                                    "Description": "O número de cartão de crédito será necessário para garantia da reserva. "
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "O cancelamento do período contratado será aceito com antecedência mínima de 10 dias da entrada. Fora deste prazo será cobrado o valor de uma diária de multa e o saldo restante, se houver, será concedido como carta de crédito.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                },
+                {
+                    "RoomTypeId": "1663359701",
+                    "Name": "Suíte Luxo Casal",
+                    "Description": "Projetada nos preceitos do Feng Shui, as acomodações do Canto da Floresta Ecoresort oferecem aos hóspedes o máximo conforto para seu relaxamento e total conforto. Aconchegantes e charmosas com seus detalhes, cores, texturas e cantos arredondados para que sua energia flua melhor.",
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 4,
+                    "MaxAdults": 3,
+                    "MaxChildren": 2,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/7d8a9697eabe422caf775b73b66f542d.jpg",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/7d8a9697eabe422caf775b73b66f542d.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/4f26fcd1b152417b8173d8368fb0873e.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/3f857087222943a9a81e7369b23c35c0.jpg"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "1",
+                            "Name": "Ar-Condicionado"
+                        },
+                        {
+                            "Code": "21",
+                            "Name": "Banheiro"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "15",
+                            "Name": "Cofre"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "28",
+                            "Name": "Luminária na cabeceira"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "20",
+                            "Name": "Serviço de Despertador"
+                        },
+                        {
+                            "Code": "11",
+                            "Name": "Serviço de Quarto"
+                        },
+                        {
+                            "Code": "18",
+                            "Name": "Telefone"
+                        },
+                        {
+                            "Code": "4",
+                            "Name": "Televisão"
+                        },
+                        {
+                            "Code": "26",
+                            "Name": "Televisão de LED"
+                        },
+                        {
+                            "Code": "17",
+                            "Name": "Toalete"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "19",
+                            "Name": "TV de Tela Plana"
+                        }
+                    ],
+                    "BedOptions": [
+                        "1 cama de casal"
+                    ],
+                    "AllowSmokers": false,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1686331143",
+                            "Name": "Tarifa",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "None",
+                                    "Amount": 0,
+                                    "Description": "O número de cartão de crédito será necessário para garantia da reserva. "
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "O cancelamento do período contratado será aceito com antecedência mínima de 10 dias da entrada. Fora deste prazo será cobrado o valor de uma diária de multa e o saldo restante, se houver, será concedido como carta de crédito.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                },
+                {
+                    "RoomTypeId": "153038131",
+                    "Name": "Suíte Luxo Varanda Solteiro",
+                    "Description": "Projetada nos preceitos do Feng Shui, as acomodações do Canto da Floresta Ecoresort oferecem aos hóspedes o máximo conforto para para seu relaxamento e maior conforto.\rAconchegantes e charmosas com seus detalhes, cores, texturas e cantos arredondados para que sua energia flua melhor.\rNesta acomodação, aproveite para aquietar sua mente ao som da cachoeira. ",
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 3,
+                    "MaxAdults": 3,
+                    "MaxChildren": 2,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/9f177be24435441493add1599c942a1e.jpg",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/9f177be24435441493add1599c942a1e.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/6ab2bd7ff0c84431afcad36fe667903f.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/b59bb97650214748bd530ab779850283.jpg"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "1",
+                            "Name": "Ar-Condicionado"
+                        },
+                        {
+                            "Code": "21",
+                            "Name": "Banheiro"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "15",
+                            "Name": "Cofre"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "28",
+                            "Name": "Luminária na cabeceira"
+                        },
+                        {
+                            "Code": "27",
+                            "Name": "Sacada com vista aprazível para a natureza"
+                        },
+                        {
+                            "Code": "30",
+                            "Name": "Sacada privativa"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "20",
+                            "Name": "Serviço de Despertador"
+                        },
+                        {
+                            "Code": "11",
+                            "Name": "Serviço de Quarto"
+                        },
+                        {
+                            "Code": "18",
+                            "Name": "Telefone"
+                        },
+                        {
+                            "Code": "4",
+                            "Name": "Televisão"
+                        },
+                        {
+                            "Code": "26",
+                            "Name": "Televisão de LED"
+                        },
+                        {
+                            "Code": "17",
+                            "Name": "Toalete"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        }
+                    ],
+                    "BedOptions": [
+                        "1 cama de casal"
+                    ],
+                    "AllowSmokers": true,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1686331143",
+                            "Name": "Tarifa",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "None",
+                                    "Amount": 0,
+                                    "Description": "O número de cartão de crédito será necessário para garantia da reserva. "
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "O cancelamento do período contratado será aceito com antecedência mínima de 10 dias da entrada. Fora deste prazo será cobrado o valor de uma diária de multa e o saldo restante, se houver, será concedido como carta de crédito.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                },
+                {
+                    "RoomTypeId": "575417357",
+                    "Name": "Suíte Luxo Varanda Casal",
+                    "Description": "Projetada nos preceitos do Feng Shui, as acomodações do Canto da Floresta Ecoresort oferecem aos hóspedes o máximo conforto para seu relaxamento e total conforto. \rAconchegantes e charmosas com seus detalhes, cores, texturas e cantos arredondados para que sua energia flua melhor.\rNesta acomodação aproveite para aquietar sua mente ao som da cachoeira.",
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 3,
+                    "MaxAdults": 3,
+                    "MaxChildren": 2,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/72730f8406524e2f90f0958825e1fa3f.jpg",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/72730f8406524e2f90f0958825e1fa3f.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/2c046ffd2bc145088e5065e7f53cb3ec.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/1e3ae8e88bf940489f0c03bbcb5d5427.jpg"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "1",
+                            "Name": "Ar-Condicionado"
+                        },
+                        {
+                            "Code": "21",
+                            "Name": "Banheiro"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "15",
+                            "Name": "Cofre"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "27",
+                            "Name": "Sacada com vista aprazível para a natureza"
+                        },
+                        {
+                            "Code": "30",
+                            "Name": "Sacada privativa"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "20",
+                            "Name": "Serviço de Despertador"
+                        },
+                        {
+                            "Code": "11",
+                            "Name": "Serviço de Quarto"
+                        },
+                        {
+                            "Code": "18",
+                            "Name": "Telefone"
+                        },
+                        {
+                            "Code": "17",
+                            "Name": "Toalete"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "19",
+                            "Name": "TV de Tela Plana"
+                        }
+                    ],
+                    "BedOptions": [
+                        "1 cama de casal"
+                    ],
+                    "AllowSmokers": true,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1686331143",
+                            "Name": "Tarifa",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "None",
+                                    "Amount": 0,
+                                    "Description": "O número de cartão de crédito será necessário para garantia da reserva. "
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "O cancelamento do período contratado será aceito com antecedência mínima de 10 dias da entrada. Fora deste prazo será cobrado o valor de uma diária de multa e o saldo restante, se houver, será concedido como carta de crédito.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                },
+                {
+                    "RoomTypeId": "57943567",
+                    "Name": "Suíte Máster",
+                    "Description": "Projetada nos preceitos do Feng Shui, as acomodações do Canto da Floresta Ecorersort oferecem aos hóspedes o máximo conforto para seu relaxamento e total conforto. \rAconchegantes e charmosas com seus detalhes, cores, texturas e cantos arredondados para que sua energia flua melhor. As Suítes Máster dispõem de uma agradável ante-sala com varanda voltada para o jardim. No jardim, há lugares para redes e espreguiçadeiras para deleite dos hóspedes.",
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 3,
+                    "MaxAdults": 3,
+                    "MaxChildren": 2,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/e467cab028884993a873c4defdeef179.jpg",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/e467cab028884993a873c4defdeef179.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/87a1df5258684f59894e99e577a692ff.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/a926f96b69504c7f95d440e3ec158e66.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/564b2527c19a3c0e789043fc/5282447b1b804f698b518750b81d88d2.jpg"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "1",
+                            "Name": "Ar-Condicionado"
+                        },
+                        {
+                            "Code": "21",
+                            "Name": "Banheiro"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "15",
+                            "Name": "Cofre"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "27",
+                            "Name": "Sacada com vista aprazível para a natureza"
+                        },
+                        {
+                            "Code": "30",
+                            "Name": "Sacada privativa"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "20",
+                            "Name": "Serviço de Despertador"
+                        },
+                        {
+                            "Code": "11",
+                            "Name": "Serviço de Quarto"
+                        },
+                        {
+                            "Code": "18",
+                            "Name": "Telefone"
+                        },
+                        {
+                            "Code": "4",
+                            "Name": "Televisão"
+                        },
+                        {
+                            "Code": "17",
+                            "Name": "Toalete"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "19",
+                            "Name": "TV de Tela Plana"
+                        }
+                    ],
+                    "BedOptions": [
+                        "1 cama de casal"
+                    ],
+                    "AllowSmokers": false,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1686331143",
+                            "Name": "Tarifa",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "None",
+                                    "Amount": 0,
+                                    "Description": "O número de cartão de crédito será necessário para garantia da reserva. "
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "O cancelamento do período contratado será aceito com antecedência mínima de 10 dias da entrada. Fora deste prazo será cobrado o valor de uma diária de multa e o saldo restante, se houver, será concedido como carta de crédito.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                }
+            ],
+            "BestPrice": null,
+            "ChainOrder": 1,
+            "Installments": {
+                "MinValue": -1,
+                "Number": -1
+            }
+        },
+        {
+            "PropertyId": "594bbda3c19a3b2a2cd3bb4b",
+            "Name": "Prado Hotel",
+            "Rating": 0,
+            "PropertyType": "Hotel",
+            "Cnpj": null,
+            "Description": "O Prado Hotel fica localizado na cidade de Amparo/SP - Capital Histórica do Circuito das Águas Paulista e próximo a importantes cidades turísticas como Jaguariúna, Pedreira, Monte Alegre do Sul, Serra Negra, Águas de Lindóia, Lindóia e Holambra. Sem contar com a proximidade com o aeroporto de Viracopos em Campinas e toda a sua região metropolitana, além das principais rodovidas que dão acesso à capital - São Paulo.",
+            "Policies": {
+                "CheckInTime": "15:00:00",
+                "CheckOutTime": "11:00:00",
+                "TermAndConditions": null,
+                "GeneralPolicy": "POLITICA DE RESERVAS DO HOTELÉ obrigatório o Preenchimento dos dados no check-in e a apresentação de documento original com foto do hóspede e de seus acompanhantes.\rPara hóspedes menores de idade é obrigatório a apresentação da Autorização de Hospedagem (lei 12.038, de 1º de outubro de 2009), quando acompanhado de menores na qualidade de responsável pelos mesmos. \r \r**NÃO TRABALHAMOS COM PAGAMENTOS EM CHEQUE**\r \r  "
+            },
+            "GoogleMapsUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14722.370027117264!2d-46.7682871!3d-22.7062086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaaa78ebabf7091ee!2sPrado+Hotel!5e0!3m2!1spt-BR!2sbr!4v1498151468932",
+            "PropertyHomePage": "http://www.pradohotel.com.br",
+            "Phones": {
+                "MainPhone": "33334444",
+                "SecondaryPhone": "33334444"
+            },
+            "Address": {
+                "Street": "R. Antônio Prado 32",
+                "Neighborhood": "Centro",
+                "CityCode": "350190",
+                "City": "Amparo",
+                "StateCode": "35",
+                "State": "São Paulo",
+                "CountryCode": null,
+                "Country": "Brasil",
+                "ZipCode": "13900374"
+            },
+            "Location": {
+                "Latitude": "-22.7062086",
+                "Longitude": "-46.7682871"
+            },
+            "Features": [
+                {
+                    "Code": "101",
+                    "Name": "Piscina ao ar livre"
+                },
+                {
+                    "Code": "108",
+                    "Name": "Academia"
+                },
+                {
+                    "Code": "302",
+                    "Name": "Restaurante (à la carte)"
+                },
+                {
+                    "Code": "304",
+                    "Name": "Bar"
+                },
+                {
+                    "Code": "311",
+                    "Name": "Serviço de Quarto"
+                },
+                {
+                    "Code": "401",
+                    "Name": "Acesso gratuito de Wi-Fi disponivel em toda propriedade"
+                },
+                {
+                    "Code": "502",
+                    "Name": "Recepção 24 horas"
+                },
+                {
+                    "Code": "508",
+                    "Name": "Depósito de bagagens"
+                },
+                {
+                    "Code": "509",
+                    "Name": "Cofre"
+                },
+                {
+                    "Code": "510",
+                    "Name": "Jornais"
+                },
+                {
+                    "Code": "511",
+                    "Name": "Estacionamento Gratuíto"
+                },
+                {
+                    "Code": "513",
+                    "Name": "Lavanderia"
+                },
+                {
+                    "Code": "601",
+                    "Name": "Português"
+                },
+                {
+                    "Code": "602",
+                    "Name": "Inglês"
+                },
+                {
+                    "Code": "701",
+                    "Name": "Quartos não fumantes"
+                },
+                {
+                    "Code": "702",
+                    "Name": "Suíte nupcial"
+                },
+                {
+                    "Code": "703",
+                    "Name": "Elevador"
+                },
+                {
+                    "Code": "704",
+                    "Name": "Ar-condicionado"
+                },
+                {
+                    "Code": "707",
+                    "Name": "Sala de reuniões/eventos"
+                },
+                {
+                    "Code": "708",
+                    "Name": "Aceita os animais de estimação"
+                }
+            ],
+            "Photos": [],
+            "RoomTypes": [
+                {
+                    "RoomTypeId": "776468836",
+                    "Name": "Apartamento Duplo ",
+                    "Description": null,
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 3,
+                    "MaxAdults": 2,
+                    "MaxChildren": 1,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/29652b73469c4233ba06e3c29dddf326.JPG",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/f1608ae000314f05aff6be8ad83381a8.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/e81e27fc0d904c0bb3e5c21674d3c069.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/36d955b8dd2c4167b490835ba90e8248.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/29652b73469c4233ba06e3c29dddf326.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/f306e6d30210495b8946ab5f14002ffb.JPG"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "67",
+                            "Name": "Amenidades de banho"
+                        },
+                        {
+                            "Code": "78",
+                            "Name": "Ar-Condicionado Split"
+                        },
+                        {
+                            "Code": "22",
+                            "Name": "Cama Box Queen"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "77",
+                            "Name": "Cofre eletrônico"
+                        },
+                        {
+                            "Code": "75",
+                            "Name": "Ducha higienica"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "57",
+                            "Name": "Interfone"
+                        },
+                        {
+                            "Code": "28",
+                            "Name": "Luminária na cabeceira"
+                        },
+                        {
+                            "Code": "64",
+                            "Name": "Mesa de trabalho"
+                        },
+                        {
+                            "Code": "30",
+                            "Name": "Sacada privativa"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "58",
+                            "Name": "Serviço de camareira"
+                        },
+                        {
+                            "Code": "26",
+                            "Name": "Televisão de LED"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "69",
+                            "Name": "Varanda"
+                        },
+                        {
+                            "Code": "35",
+                            "Name": "Ventilador Teto"
+                        },
+                        {
+                            "Code": "71",
+                            "Name": "WiFi Gratuito no Quarto"
+                        }
+                    ],
+                    "BedOptions": [
+                        "1 cama de casal"
+                    ],
+                    "AllowSmokers": false,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1487266019",
+                            "Name": "Tarifa Reembolsável",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "FirstNight",
+                                    "Amount": 0,
+                                    "Description": "Para garantia da reserva, será cobrado o valor da primeira diaria."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Caso o cancelamento ocorra 07 dias antes do check-in, será devolvido o valor total da garantia.",
+                                    "CancellationPenalties": [
+                                        {
+                                            "DaysBeforeArrival": 0,
+                                            "PenaltyType": "None",
+                                            "Amount": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "RateTypeId": "740546348",
+                            "Name": "Tarifa Não Reembolsavel",
+                            "Description": "Por favor, observe que se trata de uma tarifa não reembolsável, assim não será permitido cancelar ou alterar a data da reserva.",
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": true,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "Percentage",
+                                    "Amount": 100,
+                                    "Description": "Será cobrado o valor total da reserva como garantia."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Está é uma tarifa não reembolsável.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                },
+                {
+                    "RoomTypeId": "128634456",
+                    "Name": "Apartamento com 2 camas de solteiro",
+                    "Description": null,
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 3,
+                    "MaxAdults": 2,
+                    "MaxChildren": 1,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/c8f4c5da22d848c7998bc5fe1846a74d.jpg",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/864797b2ffbf421db9d3a6ff44ab460f.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/c8f4c5da22d848c7998bc5fe1846a74d.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/91777f313a3846a8b959a47d86aae4eb.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/e6f5b2d61bc54d5cb09f04b91cdf3677.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/c4a23811d42043ffa4d72d095eb64d4c.JPG"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "67",
+                            "Name": "Amenidades de banho"
+                        },
+                        {
+                            "Code": "78",
+                            "Name": "Ar-Condicionado Split"
+                        },
+                        {
+                            "Code": "34",
+                            "Name": "Cama Box Solteiro"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "77",
+                            "Name": "Cofre eletrônico"
+                        },
+                        {
+                            "Code": "75",
+                            "Name": "Ducha higienica"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "57",
+                            "Name": "Interfone"
+                        },
+                        {
+                            "Code": "28",
+                            "Name": "Luminária na cabeceira"
+                        },
+                        {
+                            "Code": "64",
+                            "Name": "Mesa de trabalho"
+                        },
+                        {
+                            "Code": "30",
+                            "Name": "Sacada privativa"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "58",
+                            "Name": "Serviço de camareira"
+                        },
+                        {
+                            "Code": "26",
+                            "Name": "Televisão de LED"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "69",
+                            "Name": "Varanda"
+                        },
+                        {
+                            "Code": "35",
+                            "Name": "Ventilador Teto"
+                        },
+                        {
+                            "Code": "71",
+                            "Name": "WiFi Gratuito no Quarto"
+                        }
+                    ],
+                    "BedOptions": [
+                        "2 camas de solteiro"
+                    ],
+                    "AllowSmokers": false,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1487266019",
+                            "Name": "Tarifa Reembolsável",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "FirstNight",
+                                    "Amount": 0,
+                                    "Description": "Para garantia da reserva, será cobrado o valor da primeira diaria."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Caso o cancelamento ocorra 07 dias antes do check-in, será devolvido o valor total da garantia.",
+                                    "CancellationPenalties": [
+                                        {
+                                            "DaysBeforeArrival": 0,
+                                            "PenaltyType": "None",
+                                            "Amount": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "RateTypeId": "740546348",
+                            "Name": "Tarifa Não Reembolsavel",
+                            "Description": "Por favor, observe que se trata de uma tarifa não reembolsável, assim não será permitido cancelar ou alterar a data da reserva.",
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": true,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "Percentage",
+                                    "Amount": 100,
+                                    "Description": "Será cobrado o valor total da reserva como garantia."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Está é uma tarifa não reembolsável.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                },
+                {
+                    "RoomTypeId": "316784319",
+                    "Name": "Apartamento Adaptado",
+                    "Description": null,
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 3,
+                    "MaxAdults": 2,
+                    "MaxChildren": 1,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/339e3108580743a2915421a70b859fe8.JPG",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/339e3108580743a2915421a70b859fe8.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/0d410da98637400fa7c33b53b5423c90.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/a9dbc876ea2847468445efd082ec7acd.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/da5dc5980af34c77ab4127a5ee951212.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/b284d036b68d4fcb9db2ef33c0e436d1.JPG"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "67",
+                            "Name": "Amenidades de banho"
+                        },
+                        {
+                            "Code": "78",
+                            "Name": "Ar-Condicionado Split"
+                        },
+                        {
+                            "Code": "34",
+                            "Name": "Cama Box Solteiro"
+                        },
+                        {
+                            "Code": "16",
+                            "Name": "Chuveiro"
+                        },
+                        {
+                            "Code": "77",
+                            "Name": "Cofre eletrônico"
+                        },
+                        {
+                            "Code": "75",
+                            "Name": "Ducha higienica"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "57",
+                            "Name": "Interfone"
+                        },
+                        {
+                            "Code": "28",
+                            "Name": "Luminária na cabeceira"
+                        },
+                        {
+                            "Code": "64",
+                            "Name": "Mesa de trabalho"
+                        },
+                        {
+                            "Code": "30",
+                            "Name": "Sacada privativa"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "58",
+                            "Name": "Serviço de camareira"
+                        },
+                        {
+                            "Code": "26",
+                            "Name": "Televisão de LED"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "69",
+                            "Name": "Varanda"
+                        },
+                        {
+                            "Code": "35",
+                            "Name": "Ventilador Teto"
+                        },
+                        {
+                            "Code": "71",
+                            "Name": "WiFi Gratuito no Quarto"
+                        }
+                    ],
+                    "BedOptions": [
+                        "2 camas de solteiro"
+                    ],
+                    "AllowSmokers": false,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1487266019",
+                            "Name": "Tarifa Reembolsável",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "FirstNight",
+                                    "Amount": 0,
+                                    "Description": "Para garantia da reserva, será cobrado o valor da primeira diaria."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Caso o cancelamento ocorra 07 dias antes do check-in, será devolvido o valor total da garantia.",
+                                    "CancellationPenalties": [
+                                        {
+                                            "DaysBeforeArrival": 0,
+                                            "PenaltyType": "None",
+                                            "Amount": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "RateTypeId": "740546348",
+                            "Name": "Tarifa Não Reembolsavel",
+                            "Description": "Por favor, observe que se trata de uma tarifa não reembolsável, assim não será permitido cancelar ou alterar a data da reserva.",
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": true,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "Percentage",
+                                    "Amount": 100,
+                                    "Description": "Será cobrado o valor total da reserva como garantia."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Está é uma tarifa não reembolsável.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                },
+                {
+                    "RoomTypeId": "1864845428",
+                    "Name": "Suite",
+                    "Description": null,
+                    "MinOccupancy": 1,
+                    "MaxOccupancy": 4,
+                    "MaxAdults": 2,
+                    "MaxChildren": 2,
+                    "MainPhotoPath": "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/f20cd06ff0f143bb89104f4133636061.jpg",
+                    "Photos": [
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/f20cd06ff0f143bb89104f4133636061.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/65ce484ec7b347c5b8cf7cfe3db2ff03.jpg",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/53cb0979c8614a2dad77b8b3755d04e5.png",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/d0a86858050f459f8f850f2e692b4d0e.JPG",
+                        "https://hbook-images.s3-sa-east-1.amazonaws.com/594bbda3c19a3b2a2cd3bb4b/f9959a4abc26476da84fe682b8ca7485.JPG"
+                    ],
+                    "Features": [
+                        {
+                            "Code": "67",
+                            "Name": "Amenidades de banho"
+                        },
+                        {
+                            "Code": "78",
+                            "Name": "Ar-Condicionado Split"
+                        },
+                        {
+                            "Code": "22",
+                            "Name": "Cama Box Queen"
+                        },
+                        {
+                            "Code": "77",
+                            "Name": "Cofre eletrônico"
+                        },
+                        {
+                            "Code": "75",
+                            "Name": "Ducha higienica"
+                        },
+                        {
+                            "Code": "74",
+                            "Name": "Espelho de maquiagem"
+                        },
+                        {
+                            "Code": "3",
+                            "Name": "Frigobar"
+                        },
+                        {
+                            "Code": "57",
+                            "Name": "Interfone"
+                        },
+                        {
+                            "Code": "28",
+                            "Name": "Luminária na cabeceira"
+                        },
+                        {
+                            "Code": "64",
+                            "Name": "Mesa de trabalho"
+                        },
+                        {
+                            "Code": "30",
+                            "Name": "Sacada privativa"
+                        },
+                        {
+                            "Code": "65",
+                            "Name": "Sala de estar com TV"
+                        },
+                        {
+                            "Code": "9",
+                            "Name": "Secador de Cabelo"
+                        },
+                        {
+                            "Code": "58",
+                            "Name": "Serviço de camareira"
+                        },
+                        {
+                            "Code": "6",
+                            "Name": "TV a Cabo"
+                        },
+                        {
+                            "Code": "32",
+                            "Name": "TV LED na sala"
+                        },
+                        {
+                            "Code": "31",
+                            "Name": "TV LED no quarto"
+                        },
+                        {
+                            "Code": "69",
+                            "Name": "Varanda"
+                        },
+                        {
+                            "Code": "35",
+                            "Name": "Ventilador Teto"
+                        },
+                        {
+                            "Code": "8",
+                            "Name": "Vista para a Cidade"
+                        },
+                        {
+                            "Code": "71",
+                            "Name": "WiFi Gratuito no Quarto"
+                        }
+                    ],
+                    "BedOptions": [
+                        "1 cama de casal",
+                        "1 cama de casal e 1 sofá cama"
+                    ],
+                    "AllowSmokers": false,
+                    "RateTypes": [
+                        {
+                            "RateTypeId": "1487266019",
+                            "Name": "Tarifa Reembolsável",
+                            "Description": null,
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": false,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "FirstNight",
+                                    "Amount": 0,
+                                    "Description": "Para garantia da reserva, será cobrado o valor da primeira diaria."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Caso o cancelamento ocorra 07 dias antes do check-in, será devolvido o valor total da garantia.",
+                                    "CancellationPenalties": [
+                                        {
+                                            "DaysBeforeArrival": 0,
+                                            "PenaltyType": "None",
+                                            "Amount": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "RateTypeId": "740546348",
+                            "Name": "Tarifa Não Reembolsavel",
+                            "Description": "Por favor, observe que se trata de uma tarifa não reembolsável, assim não será permitido cancelar ou alterar a data da reserva.",
+                            "MealPlan": "RoomOnly",
+                            "ExtraProducts": [],
+                            "Policies": {
+                                "IsNonRefundable": true,
+                                "PrePaymentPolicy": {
+                                    "PrePaymentType": "Percentage",
+                                    "Amount": 100,
+                                    "Description": "Será cobrado o valor total da reserva como garantia."
+                                },
+                                "CancellationPolicy": {
+                                    "Description": "Está é uma tarifa não reembolsável.",
+                                    "CancellationPenalties": []
+                                }
+                            }
+                        }
+                    ],
+                    "BestPrice": null
+                }
+            ],
+            "BestPrice": null,
+            "ChainOrder": 1,
+            "Installments": {
+                "MinValue": 100,
+                "Number": 3
+            }
+        }
+    ],
+    "RequestedRooms": [
+        {
+            "RoomIdentifier": "quarto_1",
+            "AmountAdults": 2,
+            "AmountChildren": 0,
+            "ChildrenAges": null,
+            "Availabilities": [
+                {
+                    "CompanyId": "564b2527c19a3c0e789043fc",
+                    "Success": true,
+                    "ValidationErrors": [],
+                    "Rooms": [],
+                    "PromotionInfo": null,
+                    "ElegibleOffers": [],
+                    "BestPrice": null,
+                    "EffectiveInspections": null,
+                    "HasErrors": false
+                },
+                {
+                    "CompanyId": "594bbda3c19a3b2a2cd3bb4b",
+                    "Success": true,
+                    "ValidationErrors": [],
+                    "Rooms": [],
+                    "PromotionInfo": null,
+                    "ElegibleOffers": [],
+                    "BestPrice": null,
+                    "EffectiveInspections": null,
+                    "HasErrors": false
+                }
+            ]
+        },
+        {
+            "RoomIdentifier": "quarto_2",
+            "AmountAdults": 3,
+            "AmountChildren": 0,
+            "ChildrenAges": null,
+            "Availabilities": [
+                {
+                    "CompanyId": "564b2527c19a3c0e789043fc",
+                    "Success": true,
+                    "ValidationErrors": [],
+                    "Rooms": [],
+                    "PromotionInfo": null,
+                    "ElegibleOffers": [],
+                    "BestPrice": null,
+                    "EffectiveInspections": null,
+                    "HasErrors": false
+                },
+                {
+                    "CompanyId": "594bbda3c19a3b2a2cd3bb4b",
+                    "Success": true,
+                    "ValidationErrors": [],
+                    "Rooms": [],
+                    "PromotionInfo": null,
+                    "ElegibleOffers": [],
+                    "BestPrice": null,
+                    "EffectiveInspections": null,
+                    "HasErrors": false
+                }
+            ]
+        }
+    ],
+    "Errors": null
+}

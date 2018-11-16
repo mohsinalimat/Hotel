@@ -33,6 +33,7 @@ class BuscarHotelView: UITableViewController, DataEscolhidaProtocol, HotelEscolh
     private let SEGUE_CALENDAR = "segueToCalendario"
     private let SEGUE_DESTINO = "segueToDestino"
     private let SEGUE_HOSPEDAGEM = "segueToHospedagem"
+    private let SEGUE_HOTEIS = "segueToHoteis"
     
     var viewModel = HospedagemViewModel()
     var quartos: [Quarto] = []{
@@ -175,6 +176,11 @@ class BuscarHotelView: UITableViewController, DataEscolhidaProtocol, HotelEscolh
     
     func configureButton(){
         btnBuscarHoteis.layer.cornerRadius = 3
+        btnBuscarHoteis.addTarget(self, action: #selector(buscarHoteis), for: .touchDown)
+    }
+    
+    @objc func buscarHoteis(){
+        performSegue(withIdentifier: SEGUE_HOTEIS, sender: self)
     }
     
     func configureNavigation(){
