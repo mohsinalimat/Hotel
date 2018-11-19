@@ -668,44 +668,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellPhotoHotel" rowHeight="168" id="Gdg-ek-Qoz" customClass="CellFotoHotel" customModule="Hotel" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="168"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellQuartoHotel" rowHeight="90" id="VUX-p3-KsN" customClass="CellQuartoHotel" customModule="Hotel" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gdg-ek-Qoz" id="4Kc-v5-Uo9">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="167.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VUX-p3-KsN" id="Afc-CC-Qgp">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1FY-ee-zAx" customClass="FSHotelView" customModule="Hotel" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="167.5"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </view>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yjH-H5-4Lh">
+                                            <rect key="frame" x="2" y="2" width="152" height="85.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="yjH-H5-4Lh" secondAttribute="height" multiplier="1920:1080" id="g5O-tW-97V"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome do Quarto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtG-My-TIL">
+                                            <rect key="frame" x="158" y="15" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="1FY-ee-zAx" firstAttribute="leading" secondItem="4Kc-v5-Uo9" secondAttribute="leading" id="Cmq-pS-zqb"/>
-                                        <constraint firstItem="1FY-ee-zAx" firstAttribute="top" secondItem="4Kc-v5-Uo9" secondAttribute="top" id="aav-Ne-4XF"/>
-                                        <constraint firstAttribute="bottom" secondItem="1FY-ee-zAx" secondAttribute="bottom" id="jxd-l1-9tW"/>
-                                        <constraint firstAttribute="trailing" secondItem="1FY-ee-zAx" secondAttribute="trailing" id="wKe-Wm-VBr"/>
+                                        <constraint firstItem="yjH-H5-4Lh" firstAttribute="top" secondItem="Afc-CC-Qgp" secondAttribute="top" constant="2" id="ajt-Ry-IZC"/>
+                                        <constraint firstItem="BtG-My-TIL" firstAttribute="top" secondItem="Afc-CC-Qgp" secondAttribute="topMargin" constant="4" id="gGM-i5-e5U"/>
+                                        <constraint firstAttribute="bottom" secondItem="yjH-H5-4Lh" secondAttribute="bottom" constant="2" id="gyI-eD-4ho"/>
+                                        <constraint firstAttribute="trailing" secondItem="BtG-My-TIL" secondAttribute="trailing" constant="4" id="h4Q-LC-If5"/>
+                                        <constraint firstItem="BtG-My-TIL" firstAttribute="leading" secondItem="yjH-H5-4Lh" secondAttribute="trailing" constant="4" id="xSi-10-Kl2"/>
+                                        <constraint firstItem="yjH-H5-4Lh" firstAttribute="leading" secondItem="Afc-CC-Qgp" secondAttribute="leading" constant="2" id="ztk-fG-D8x"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="fotoHotelView" destination="1FY-ee-zAx" id="tRX-9r-x5i"/>
+                                    <outlet property="imagem" destination="yjH-H5-4Lh" id="8fa-lH-eB9"/>
+                                    <outlet property="lblNomeQuarto" destination="BtG-My-TIL" id="h6Y-PC-2AC"/>
                                 </connections>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellInfoHotel" rowHeight="168" id="e3Y-EV-hlC">
-                                <rect key="frame" x="0.0" y="196" width="320" height="168"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e3Y-EV-hlC" id="bXr-hi-UhF">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="167.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellQuarto" rowHeight="168" id="dPG-ze-eBo">
-                                <rect key="frame" x="0.0" y="364" width="320" height="168"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dPG-ze-eBo" id="sIX-lQ-Do3">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="167.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -716,7 +711,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y6L-nl-EH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4346" y="2384"/>
+            <point key="canvasLocation" x="4344.375" y="2383.0985915492956"/>
         </scene>
         <!--Hoteis View Collection-->
         <scene sceneID="I7A-Gf-e3y">
@@ -807,8 +802,8 @@
                     </view>
                     <connections>
                         <outlet property="collectionHoteis" destination="rUe-Tp-Orz" id="jby-nE-J8j"/>
-                        <segue destination="DeO-J3-zu3" kind="show" identifier="segueToHotel" id="rWv-AB-FKC"/>
-                        <segue destination="lMS-qh-86s" kind="show" identifier="" id="prg-Cx-9kg"/>
+                        <segue destination="DeO-J3-zu3" kind="show" identifier="" id="rWv-AB-FKC"/>
+                        <segue destination="lMS-qh-86s" kind="show" identifier="segueToHotel" id="prg-Cx-9kg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gnz-Az-vPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

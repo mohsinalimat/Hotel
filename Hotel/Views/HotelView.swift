@@ -13,18 +13,22 @@ class HotelView: UIViewController, FSPagerViewDelegate, FSPagerViewDataSource {
     
     var imagens: [UIImage] = []
     var pageView: FSPagerView!
-    var tableQuartos: UITableView!
+    var viewQuartos: [UIView] = []
     var viewHotelInfo: UIView!
     var scrool = UIScrollView()
     var mainView = UIView()
+    var viewModel: HoteisViewModel?
+    var quartos: [Room] = []
+    var hotelEscolhido = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        quartos = (viewModel?.hoteis.value[hotelEscolhido].RoomTypes!)!
         configureMainView()
         configurePageView()
         configureViewInfo()
-        configureTableView()
+        configureViewsQuartos()
         configureConstraints()
         configureScrool()
 
@@ -32,7 +36,6 @@ class HotelView: UIViewController, FSPagerViewDelegate, FSPagerViewDataSource {
     
     func configureMainView(){
         mainView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: (view.frame.width * 0.5625) + 200 + 400)
-        
     }
     
     func configurePageView(){
@@ -52,23 +55,24 @@ class HotelView: UIViewController, FSPagerViewDelegate, FSPagerViewDataSource {
     
     func configureViewInfo(){
         viewHotelInfo = UIView()
-        viewHotelInfo.backgroundColor = UIColor.blue
         mainView.addSubview(viewHotelInfo)
     }
     
-    func configureTableView(){
-        tableQuartos = UITableView()
-        mainView.addSubview(tableQuartos)
+    func configureViewsQuartos(){
+        
+        
+        
+//        tableQuartos = UITableView()
+//        tableQuartos.delegate = self
+//        mainView.addSubview(tableQuartos)
     }
     
     func configureConstraints(){
         let pageViewHeight = view.frame.width * 0.5625
-        let navHeight = navigationController?.navigationBar.frame.height ?? 0
         
         mainView.addConstraintsWithVisualFormat(format: "H:|[v0]|", views: pageView)
         mainView.addConstraintsWithVisualFormat(format: "H:|[v0]|", views: viewHotelInfo)
-        mainView.addConstraintsWithVisualFormat(format: "H:|[v0]|", views: tableQuartos)
-        mainView.addConstraintsWithVisualFormat(format: "V:|[v0(\(pageViewHeight))]-0-[v1(200)]-0-[v2(400)]", views: pageView, viewHotelInfo, tableQuartos)
+        mainView.addConstraintsWithVisualFormat(format: "V:|[v0(\(pageViewHeight))]-0-[v1(200)]", views: pageView, viewHotelInfo)
     }
     
     func configureScrool(){
@@ -91,3 +95,26 @@ class HotelView: UIViewController, FSPagerViewDelegate, FSPagerViewDataSource {
         return cell
     }
 }
+
+extension HotelView: UITableViewDataSource{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        var cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        if cell == nil{
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+        }
+        cell?.textLabel?.text = "Guilherme"
+        cell?.detailTextLabel?.text = "Dourado"
+        return cell!
+    }
+}
+
+extension HotelView: UITableViewDelegate{
+    
+}
+

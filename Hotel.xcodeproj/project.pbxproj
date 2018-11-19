@@ -31,6 +31,7 @@
 		338C6A6021935A39009D9734 /* Crianca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6A5F21935A39009D9734 /* Crianca.swift */; };
 		338C6A6221946B5E009D9734 /* ClientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6A6121946B5E009D9734 /* ClientAPI.swift */; };
 		338C6A6421947028009D9734 /* HotelClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6A6321947028009D9734 /* HotelClient.swift */; };
+		33A6C25021A2DF3D00254328 /* CellQuartoHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6C24F21A2DF3D00254328 /* CellQuartoHotel.swift */; };
 		33E1AE4A218B67250014ACE3 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1AE49218B67250014ACE3 /* Hotel.swift */; };
 		33E1AE4C218B7A080014ACE3 /* DestinosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1AE4B218B7A080014ACE3 /* DestinosViewModel.swift */; };
 		33E1AE4E218B7E5D0014ACE3 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1AE4D218B7E5D0014ACE3 /* Dynamic.swift */; };
@@ -85,6 +86,7 @@
 		338C6A5F21935A39009D9734 /* Crianca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crianca.swift; sourceTree = "<group>"; };
 		338C6A6121946B5E009D9734 /* ClientAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAPI.swift; sourceTree = "<group>"; };
 		338C6A6321947028009D9734 /* HotelClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelClient.swift; sourceTree = "<group>"; };
+		33A6C24F21A2DF3D00254328 /* CellQuartoHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellQuartoHotel.swift; sourceTree = "<group>"; };
 		33E1AE49218B67250014ACE3 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
 		33E1AE4B218B7A080014ACE3 /* DestinosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinosViewModel.swift; sourceTree = "<group>"; };
 		33E1AE4D218B7E5D0014ACE3 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 		33E767C7219CB5A1001B6643 /* Quarto */ = {
 			isa = PBXGroup;
 			children = (
+				33A6C24F21A2DF3D00254328 /* CellQuartoHotel.swift */,
 			);
 			path = Quarto;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				338C6A5C219352E0009D9734 /* Quarto.swift in Sources */,
 				3300EF292191C6FE00838D3F /* HospedagemViewModel.swift in Sources */,
 				336E8953218B366100AF9441 /* CellDia.swift in Sources */,
+				33A6C25021A2DF3D00254328 /* CellQuartoHotel.swift in Sources */,
 				337122B42199AD5800203DFB /* CellHotelCollection.swift in Sources */,
 				33E767CB219CBCF9001B6643 /* HotelViewTable.swift in Sources */,
 				337122AA21960F5900203DFB /* HoteisViewModel.swift in Sources */,

@@ -21,11 +21,18 @@ class HoteisViewCollection: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == SEGUE_HOTEL{
+            let vc = segue.destination as! HotelViewTable
+            vc.hotelEscolhido = sender as! Int
+            vc.viewModel = viewModel
+        }
+    }
 }
 
 extension HoteisViewCollection: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: SEGUE_HOTEL, sender: self)
+        performSegue(withIdentifier: SEGUE_HOTEL, sender: indexPath.item)
     }
 }
 
