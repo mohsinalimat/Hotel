@@ -675,15 +675,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yjH-H5-4Lh">
-                                            <rect key="frame" x="2" y="2" width="152" height="85.5"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yjH-H5-4Lh" customClass="CustomImageView" customModule="Hotel" customModuleProvider="target">
+                                            <rect key="frame" x="2" y="2" width="114" height="85.5"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" secondItem="yjH-H5-4Lh" secondAttribute="height" multiplier="1920:1080" id="g5O-tW-97V"/>
+                                                <constraint firstAttribute="width" secondItem="yjH-H5-4Lh" secondAttribute="height" multiplier="1024:768" id="g5O-tW-97V"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome do Quarto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtG-My-TIL">
-                                            <rect key="frame" x="158" y="15" width="158" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome do Quarto" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtG-My-TIL">
+                                            <rect key="frame" x="120" y="15" width="196" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -738,7 +738,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="274"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cSA-pK-35Y">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cSA-pK-35Y" customClass="CustomImageView" customModule="Hotel" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="cSA-pK-35Y" secondAttribute="height" multiplier="1920:1080" id="8o5-Oq-Vut"/>

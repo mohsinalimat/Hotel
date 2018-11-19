@@ -13,6 +13,7 @@ struct Hotel: Decodable {
     var Name: String?
     var Rating: Int?
     var Description: String?
+    var Photos: [String]?
     var RoomTypes: [Room]?
     
 }

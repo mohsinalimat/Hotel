@@ -181,7 +181,7 @@
                     "Name": "Aquecimento"
                 }
             ],
-            "Photos": [],
+            "Photos": ["https://s-ec.bstatic.com/images/hotel/max1280x900/101/101430248.jpg", "https://q-ec.bstatic.com/images/hotel/max1024x768/468/46871800.jpg","https://pix10.agoda.net/hotelImages/115/1157073/1157073_16062412150044053329.jpg?s=1024x768"],
             "RoomTypes": [
                 {
                     "RoomTypeId": "647659499",
@@ -819,7 +819,7 @@
                     "Name": "Aceita os animais de estimação"
                 }
             ],
-            "Photos": [],
+            "Photos": ["https://cmspro.h10hotels.com/ImagenesHotel/hsp_389433577.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6ne80yJbnlY0Hb2Hi9Bk3dCYspJy9C8Fa9ZIdrqaHGbWDmVWIw", "https://upload.wikimedia.org/wikipedia/commons/7/79/Ponta_Negra_Beach_Hotel.jpg"],
             "RoomTypes": [
                 {
                     "RoomTypeId": "776468836",

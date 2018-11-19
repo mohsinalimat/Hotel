@@ -45,7 +45,7 @@ extension HoteisViewCollection: UICollectionViewDataSource{
         
         let cell = collectionHoteis.dequeueReusableCell(withReuseIdentifier: "cellHotelCollection", for: indexPath) as! CellHotelCollection
         cell.hotelName.text = viewModel.hoteis.value[indexPath.row].Name
-        cell.hotelImage.image = UIImage(named: "hotel")
+        cell.urlImage = viewModel.hoteis.value[indexPath.row].Photos?.first
         return cell
     }
 }

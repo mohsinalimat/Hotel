@@ -9,8 +9,16 @@
 import UIKit
 
 class CellQuartoHotel: UITableViewCell {
+    
+    var urlImagem: String?{
+        didSet{
+            if let imageUrl = urlImagem{
+                imagem.loadImageUsingUrlString(urlString: imageUrl)
+            }
+        }
+    }
 
-    @IBOutlet weak var imagem: UIImageView!
+    @IBOutlet weak var imagem: CustomImageView!
     @IBOutlet weak var lblNomeQuarto: UILabel!
     
 }

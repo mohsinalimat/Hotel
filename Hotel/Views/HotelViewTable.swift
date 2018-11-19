@@ -66,7 +66,7 @@ class HotelViewTable: UITableViewController, FSPagerViewDelegate, FSPagerViewDat
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 12
+        return quartos.count
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -86,7 +86,8 @@ class HotelViewTable: UITableViewController, FSPagerViewDelegate, FSPagerViewDat
         }else{
 
             let cell = tableView.dequeueReusableCell(withIdentifier: "cellQuartoHotel") as! CellQuartoHotel
-            cell.imagem.image = UIImage(named: "hotel1")
+            cell.urlImagem = quartos[indexPath.row].Photos?.first
+            cell.lblNomeQuarto.text = quartos[indexPath.row].Name
 
             return cell
             

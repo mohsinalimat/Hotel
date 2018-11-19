@@ -10,7 +10,15 @@ import UIKit
 
 class CellHotelCollection: UICollectionViewCell {
     
-    @IBOutlet weak var hotelImage: UIImageView!
+    var urlImage: String?{
+        didSet{
+            if let url = urlImage{
+                hotelImage.loadImageUsingUrlString(urlString: url)
+            }
+        }
+    }
+    
+    @IBOutlet weak var hotelImage: CustomImageView!
     @IBOutlet weak var hotelName: UILabel!
     @IBOutlet weak var hotelValue: UILabel!
     
