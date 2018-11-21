@@ -9,6 +9,13 @@
 import Foundation
 import UIKit
 
+enum HotelInfo: Int {
+    case descricao = 2
+    case comodidades = 3
+    case politicas = 4
+    case contato = 5
+}
+
 extension UIImage {
     
     func imageWithColor(color: UIColor) -> UIImage?
@@ -251,3 +258,4 @@ func <(lhs: Date, rhs: Date) -> Bool {
 func >(lhs: Date, rhs: Date) -> Bool {
     return rhs.compare(lhs) == ComparisonResult.orderedAscending
 }
+

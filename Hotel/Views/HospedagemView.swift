@@ -10,6 +10,7 @@ import UIKit
 
 protocol CustomCellCriancaIdade{
     func callViewCriancaIdade(data: AnyObject)
+    func popController()
 }
 
 class HospedagemView: UITableViewController, CustomCellCriancaIdade {
@@ -38,12 +39,14 @@ class HospedagemView: UITableViewController, CustomCellCriancaIdade {
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return quartos.count + 1
+        return quartos.count + 2
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if section == 0 {
+            return 1
+        } else if section == (quartos.count + 1){
             return 1
         }else{
             return 2 + quartos[section - 1].criancas.count
@@ -56,6 +59,10 @@ class HospedagemView: UITableViewController, CustomCellCriancaIdade {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "cellQuarto") as! CellQuarto
             cell.viewModel = hospedagemViewModel
+            return cell
+        case (quartos.count + 1):
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cellButton") as! CellButton
+            cell.delegate = self
             return cell
         default:
             if indexPath.row == 0{
@@ -88,6 +95,8 @@ class HospedagemView: UITableViewController, CustomCellCriancaIdade {
         switch section {
         case 0:
             return "Quantidade de quartos"
+        case (quartos.count + 1):
+            return "      "
         default:
             return "Quarto \(section)"
         }
@@ -97,6 +106,10 @@ class HospedagemView: UITableViewController, CustomCellCriancaIdade {
         
         self.performSegue(withIdentifier: SEGUE_CRIANCA_IDADE, sender:data)
         
+    }
+    
+    func popController(){
+        self.navigationController?.popViewController(animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

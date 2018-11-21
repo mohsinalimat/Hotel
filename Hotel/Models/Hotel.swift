@@ -15,5 +15,8 @@ struct Hotel: Decodable {
     var Description: String?
     var Photos: [String]?
     var RoomTypes: [Room]?
-    
+    var Policies: Politica?
+    var Phones: Telefone?
+    var Address: Endereco?
+    var Features: [Comodidade]?
 }

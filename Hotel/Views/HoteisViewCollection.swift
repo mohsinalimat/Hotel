@@ -25,6 +25,7 @@ class HoteisViewCollection: UIViewController {
         if segue.identifier == SEGUE_HOTEL{
             let vc = segue.destination as! HotelViewTable
             vc.hotelEscolhido = sender as! Int
+            vc.urlsImages = viewModel.hoteis.value[sender as! Int].Photos
             vc.viewModel = viewModel
         }
     }

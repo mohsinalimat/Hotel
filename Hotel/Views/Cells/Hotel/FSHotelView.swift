@@ -13,6 +13,20 @@ class FSHotelView: UIView, FSPagerViewDelegate, FSPagerViewDataSource{
     
     var imagens: [UIImage] = []
     var pageView: FSPagerView!
+    var auxImageView = CustomImageView() {
+        didSet{
+            imagens.append(auxImageView.image!)
+        }
+    }
+    var urlsImages: [String]? {
+        didSet{
+            if let urls = urlsImages{
+                for url in urls{
+                    auxImageView.loadImageUsingUrlString(urlString: url)
+                }
+            }
+        }
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
